@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "satomod:block/yamamoto_ore_block"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "satomod:block/deepslate_yamamoto_ore_block"
+  }
+}

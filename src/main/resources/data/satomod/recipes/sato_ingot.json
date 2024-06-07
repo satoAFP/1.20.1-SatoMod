@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XIX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:sugar"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "satomod:sato_ingot",
+    "count": 1
+  }
+}

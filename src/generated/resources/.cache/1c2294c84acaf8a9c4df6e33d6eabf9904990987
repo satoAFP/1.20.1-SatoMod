@@ -1,0 +1,10 @@
+// 1.20.1	2024-06-04T11:46:30.704529	Block States: satomod
+30d11075e6f3a6113f8dd9e230889cd521e35be7 assets/satomod/blockstates/deepslate_yamamoto_ore_block.json
+9d0542c0c304141142eb074c13f56c2e0c13015c assets/satomod/blockstates/sato_ingot_block.json
+73dd925b2d6c9b2d37411eea1f0e5dc6163eeeb3 assets/satomod/blockstates/yamamoto_ore_block.json
+672471000d7ca98a1322880c5b0717c58b87d5f6 assets/satomod/models/block/deepslate_yamamoto_ore_block.json
+729a2f39a53a1ff390f73dcd968c3f68a09ac0f2 assets/satomod/models/block/sato_ingot_block.json
+dc926240f13aa7254c28153925300a9bee80d934 assets/satomod/models/block/yamamoto_ore_block.json
+7dc1709c16382a21b2318b267753761649d2a3a5 assets/satomod/models/item/deepslate_yamamoto_ore_block.json
+be646d4dd42d517206892ccd82c8b8d61bdf6aea assets/satomod/models/item/sato_ingot_block.json
+c3732350cc1d045b43e43152b1dcdfa366d25b6f assets/satomod/models/item/yamamoto_ore_block.json

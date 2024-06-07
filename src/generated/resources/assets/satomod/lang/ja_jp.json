@@ -1,0 +1,19 @@
+{
+  "block.satomod.deepslate_yamamoto_ore_block": "深層ヤマモティウム鉱石",
+  "block.satomod.sato_ingot_block": "シュガライトブロック",
+  "block.satomod.yamamoto_ore_block": "ヤマモティウム鉱石",
+  "item.satomod.raw_yamamoto": "ヤマモティウムの原石",
+  "item.satomod.sato_axe": "シュガライトの斧",
+  "item.satomod.sato_hoe": "シュガライトのクワ",
+  "item.satomod.sato_ingot": "シュガライトインゴット",
+  "item.satomod.sato_pickaxe": "シュガライトのツルハシ",
+  "item.satomod.sato_shovel": "シュガライトのシャベル",
+  "item.satomod.sato_sword": "シュガライトの剣",
+  "item.satomod.suger_fist": "シュガーフィスト",
+  "item.satomod.yamamoto_boots": "ヤマモティウムブーツ",
+  "item.satomod.yamamoto_chest": "ヤマモティウムチェストプレート",
+  "item.satomod.yamamoto_helmet": "ヤマモティウムヘルメット",
+  "item.satomod.yamamoto_ingot": "ヤマモティウムインゴット",
+  "item.satomod.yamamoto_leggings": "ヤマモティウムレギンス",
+  "itemGroup.sato_main": "佐藤MOD"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "IXI",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "satomod:sato_ingot"
+    },
+    "I": {
+      "item": "satomod:yamamoto_ingot"
+    }
+  },
+  "result": {
+    "item": "satomod:yamamoto_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "satomod:sato_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "satomod:sato_ingot",
+    "count": 9
+  }
+}

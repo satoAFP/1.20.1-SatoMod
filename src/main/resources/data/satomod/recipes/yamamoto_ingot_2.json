@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "satomod:raw_yamamoto"
+  },
+  "result": "satomod:yamamoto_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

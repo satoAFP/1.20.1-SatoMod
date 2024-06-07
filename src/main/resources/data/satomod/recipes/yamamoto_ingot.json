@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "satomod:raw_yamamoto"
+  },
+  "result": "satomod:yamamoto_ingot",
+  "experience": 1.0,
+  "cookingtime": 200
+}

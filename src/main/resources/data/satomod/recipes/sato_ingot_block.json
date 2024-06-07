@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "satomod:sato_ingot"
+    }
+  },
+  "result": {
+    "item": "satomod:sato_ingot_block",
+    "count": 1
+  }
+}
