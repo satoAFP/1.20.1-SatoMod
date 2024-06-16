@@ -1,22 +1,22 @@
 package com.Sato.SatoMod.entity.tatumi;
 
-import net.minecraft.client.model.geom.ModelLayers;
+import com.Sato.SatoMod.main.SatoMod;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.renderer.entity.MobRenderer;
-import net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer;
 import net.minecraft.resources.ResourceLocation;
 
-public class TatumiZombieRenderer extends MobRenderer<TatumiZombie, TatumiZombieModel<TatumiZombie>> {
-    private static final ResourceLocation CUSTOM_ZOMBIE_TEXTURE = new ResourceLocation("satomod", "textures/entity/tatumi_model.png");
+public class TatumiZombieRenderer extends MobRenderer<TatumiZombie,TatumiZombieModel<TatumiZombie>> {
 
-    public TatumiZombieRenderer(EntityRendererProvider.Context context) {
-        super(context, new TatumiZombieModel<>(context.bakeLayer(ModelLayers.ZOMBIE)), 0.5F);
+    private static final ResourceLocation TATUMI_ZOMBIE_LOCATION =
+            new ResourceLocation(SatoMod.MOD_ID,
+                    "textures/entity/tatumi_model.png");
 
+    public TatumiZombieRenderer(EntityRendererProvider.Context pContext) {
+        super(pContext, new TatumiZombieModel<>(pContext.bakeLayer(TatumiZombieModel.LAYER_LOCATION)), 0.25f);//影の大きさ
     }
 
     @Override
-    public ResourceLocation getTextureLocation(TatumiZombie entity) {
-        return CUSTOM_ZOMBIE_TEXTURE;
+    public ResourceLocation getTextureLocation(TatumiZombie tatumiZombie) {
+        return TATUMI_ZOMBIE_LOCATION;
     }
-
 }

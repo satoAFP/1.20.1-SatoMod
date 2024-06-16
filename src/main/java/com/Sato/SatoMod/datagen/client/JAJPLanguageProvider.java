@@ -1,6 +1,7 @@
 package com.Sato.SatoMod.datagen.client;
 
 
+import com.Sato.SatoMod.entity.SatoEntities;
 import com.Sato.SatoMod.main.SatoMod;
 import com.Sato.SatoMod.regi.SatoModBlocks;
 import com.Sato.SatoMod.regi.SatoModItems;
@@ -36,6 +37,8 @@ public class JAJPLanguageProvider extends LanguageProvider {
         addBlock(SatoModBlocks.Blocks.SATO_INGOT_BLOCK, "シュガライトブロック");
         addBlock(SatoModBlocks.Blocks.YAMAMOTO_ORE_BLOCK, "ヤマモティウム鉱石");
         addBlock(SatoModBlocks.Blocks.DEEPSLATE_YAMAMOTO_ORE_BLOCK, "深層ヤマモティウム鉱石");
+
+        addEntityType(SatoEntities.TATUMI_ZOMBIE,"辰巳ゾンビ");
 
 //        {
 //            "itemGroup.sato_main" : "佐藤MOD",

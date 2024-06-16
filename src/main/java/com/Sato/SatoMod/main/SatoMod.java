@@ -1,8 +1,5 @@
 package com.Sato.SatoMod.main;
-import com.Sato.SatoMod.entity.tatumi.ModEntities;
-import com.Sato.SatoMod.entity.tatumi.ModEventSubscriberForge;
-import com.Sato.SatoMod.entity.tatumi.TatumiZombie;
-import com.Sato.SatoMod.entity.tatumi.TatumiZombieRenderer;
+import com.Sato.SatoMod.entity.SatoEntities;
 import com.Sato.SatoMod.regi.SatoModBlocks;
 import com.Sato.SatoMod.regi.SatoModItems;
 import com.Sato.SatoMod.regi.tab.SatoModTabs;
@@ -26,7 +23,6 @@ public class SatoMod {
     {
         //クラス生成宣言
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-        IEventBus forgeEventBus = MinecraftForge.EVENT_BUS;
 
         //タブ追加
         SatoModTabs.MOD_TABS.register(bus);
@@ -38,33 +34,11 @@ public class SatoMod {
         SatoModBlocks.Blocks.BLOCKS.register(bus);
         SatoModBlocks.BlockItems.BLOCK_ITEMS.register(bus);
 
-
-        ModEntities.register(bus);
-
-        bus.addListener(this::onClientSetup);
-        bus.addListener(ModEventSubscriber::registerRenderers);
-        bus.addListener(ModEventSubscriber::registerAttributes);
-        forgeEventBus.addListener(ModEventSubscriberForge::onSpawnPlacementRegister);
+        SatoEntities.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
     };
 
 
-    private void onClientSetup(final FMLClientSetupEvent event) {
-        // クライアント側のセットアップ処理
-    }
-
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ModEventSubscriber {
-        @SubscribeEvent
-        public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
-            event.registerEntityRenderer(ModEntities.CUSTOM_ZOMBIE.get(), TatumiZombieRenderer::new);
-        }
-
-        @SubscribeEvent
-        public static void registerAttributes(EntityAttributeCreationEvent event) {
-            event.put(ModEntities.CUSTOM_ZOMBIE.get(), TatumiZombie.createAttributes().build());
-        }
-    }
 
 }
